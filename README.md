@@ -4,6 +4,7 @@ Rust Simple Shell is an extension of the Simple Shell project written entirely i
 
 ## Usage
 * The project was developed on the remote ssh, so running it on windows may not work
+  * Run `git clone https://github.com/kaiyuanlee3641/rust-simple-shell.git` on your unix remote ssh (elnux)
 * Running the command `cargo run -j 1` in the root directory will start the program
   * `-j 1` is needed as remote ssh limits the amount of threads you're allowed to spawn
   * This argument restricts it to use only one thread
@@ -48,3 +49,14 @@ TLDR
 ## Limitations
 * Pipe and Redir commands only support two commands
 * Extra commands and arguments are ignored
+
+## Links to presentation
+If any of the video links don't work, download through google drive then play it on your device.
+
+Slides: https://docs.google.com/presentation/d/1BcOyKpSTIOCMIoqFjgPujAXkVpzsQHd52goUDpSEw4c/edit?usp=sharing
+
+Video: 
+* mp4 - https://drive.google.com/file/d/1cV9sllw7Y3Uz_sjq6QEP_YRu58kQRmof/view?usp=sharing
+* mkv - https://drive.google.com/file/d/17YoNO0-M4b36u_jT630PIfCW0WUt7CRy/view?usp=sharing
+* streamable - https://streamable.com/iiz959
+
